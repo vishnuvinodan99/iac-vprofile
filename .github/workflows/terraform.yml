@@ -18,7 +18,7 @@ env:
   #s3 bucket for the terraform state
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
   AWS_REGION: us-west-2
-  EKS_CLUSTER: kitops-eks
+  EKS_CLUSTER: vprofile-eks
  
 jobs: 
   terraform:
